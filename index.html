@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Harsha Jayamal | Portfolio</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header>
-    <h1>Hello, I'm Harsha 👋</h1>
-    <p>2nd Year Software Engineering Undergraduate</p>
-    <nav>
-      <a href="about.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <div class="container nav-container">
+      <h1>Harsha Jayamal</h1>
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
   </header>
-  <main>
-    <h2>Welcome to my portfolio site!</h2>
-    <p>This is a place to showcase my projects and skills.</p>
-  </main>
+
+  <section class="hero container">
+    <div class="hero-text">
+      <h2>Hello, I'm Harsha 👋</h2>
+      <p>2nd Year Software Engineering Undergraduate</p>
+      <a href="resume.pdf" class="btn" download>Download Resume</a>
+    </div>
+    <img src="images/your-photo.jpg" alt="Harsha Jayamal" class="hero-img" />
+  </section>
+
+  
+
+  <footer>
+    <p>&copy; 2025 Harsha Jayamal. All rights reserved.</p>
+  </footer>
 </body>
 </html>
